@@ -23,18 +23,21 @@ AvailableCustomTags[]=hero_unit
 AvailableCustomTags[]=scrollbar
 AvailableCustomTags[]=blockquote
 AvailableCustomTags[]=icon
+AvailableCustomTags[]=well
 CustomTagsDescription[label]=Label
 CustomTagsDescription[badge]=Badge
 CustomTagsDescription[hero_unit]=Hero Unit
 CustomTagsDescription[scrollbar]=Scrollbar
 CustomTagsDescription[blockquote]=Blockquote
 CustomTagsDescription[icon]=Icon
+CustomTagsDescription[well]=Well
 IsInline[label]=true
 IsInline[badge]=true
 IsInline[hero_unit]=false
 IsInline[scrollbar]=false
 IsInline[blockquote]=false
 IsInline[icon]=true
+IsInline[well]=false
 
 [label]
 CustomAttributes[]
@@ -49,6 +52,7 @@ CustomAttributes[]
 CustomAttributes[]=value
 CustomAttributes[]=striped
 CustomAttributes[]=animated
+CustomAttributes[]=style
 
 [blockquote]
 CustomAttributes[]

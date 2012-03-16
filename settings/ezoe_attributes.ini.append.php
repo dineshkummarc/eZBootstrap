@@ -42,6 +42,16 @@ Name=animated
 Title=Animated
 Type=checkbox
 
+[CustomAttribute_scrollbar_style]
+Name=style
+Title=Style
+Type=select
+Selection[]
+Selection[info]=Info
+Selection[success]=Success
+Selection[warning]=Warning
+Selection[danger]=Danger
+
 [CustomAttribute_blockquote_author]
 Name=author
 Title=Author
