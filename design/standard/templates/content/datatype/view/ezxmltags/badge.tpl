@@ -1,1 +1,1 @@
-<span class="badge badge-{$type}">{$content}</span>
+<span class="badge badge-{$style}">{$content}</span>

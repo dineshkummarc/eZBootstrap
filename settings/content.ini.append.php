@@ -21,14 +21,20 @@ AvailableCustomTags[]=label
 AvailableCustomTags[]=badge
 AvailableCustomTags[]=hero_unit
 AvailableCustomTags[]=scrollbar
+AvailableCustomTags[]=blockquote
+AvailableCustomTags[]=icon
 CustomTagsDescription[label]=Label
 CustomTagsDescription[badge]=Badge
 CustomTagsDescription[hero_unit]=Hero Unit
-CustomtagsDescription[scrollbar]=Scrollbar
+CustomTagsDescription[scrollbar]=Scrollbar
+CustomTagsDescription[blockquote]=Blockquote
+CustomTagsDescription[icon]=Icon
 IsInline[label]=true
 IsInline[badge]=true
 IsInline[hero_unit]=false
 IsInline[scrollbar]=false
+IsInline[blockquote]=false
+IsInline[icon]=true
 
 [label]
 CustomAttributes[]
@@ -43,5 +49,17 @@ CustomAttributes[]
 CustomAttributes[]=value
 CustomAttributes[]=striped
 CustomAttributes[]=animated
+
+[blockquote]
+CustomAttributes[]
+CustomAttributes[]=author
+CustomAttributes[]=source
+CustomAttributes[]=source_url
+CustomAttributes[]=align
+
+[icon]
+CustomAttributes[]
+CustomAttributes[]=picto
+CustomAttributes[]=color
 
 */ ?>

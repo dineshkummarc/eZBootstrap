@@ -1,1 +1,1 @@
-<span class="label label-{$type}">{$content}</span>
+<span class="label label-{$style}">{$content}</span>
