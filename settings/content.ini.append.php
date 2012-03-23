@@ -15,10 +15,6 @@ ClassDescription[table-striped]=Zebra-stripe
 ClassDescription[table-condensed]=Condensed
 ClassDescription[table table-bordered table-striped]=Basic + Bordered + Zebra-striped
 
-[link]
-AvailableClasses[]=btn btn-primary btn-large
-ClassDescription[btn btn-primary btn-large]=Primary Large
-
 [CustomTagSettings]
 AvailableCustomTags[]=label
 AvailableCustomTags[]=badge
