@@ -207,4 +207,44 @@ Selection[]
 Selection[black]=Black
 Selection[white]=White
 
+[CustomAttribute_popover_title]
+Name=title
+Title=Title
+Type=text
+
+[CustomAttribute_popover_text]
+Name=text
+Title=Text
+Type=text
+
+[CustomAttribute_button_type]
+Name=type
+Title=Type
+Type=select
+Selection[primary]=Primary
+Selection[info]=Info
+Selection[success]=Success
+Selection[warning]=Warning
+Selection[danger]=Danger
+Selection[inverse]=Inverse
+
+[CustomAttribute_button_size]
+name=size
+Title=Size
+Type=select
+Selection[large]=Large
+Selection[small]=Small
+Selection[mini]=Mini
+
+[CustomAttribute_button_url]
+name=url
+Type=Target
+Type=link
+Required=true
+
+[CustomAttribute_button_newwindow]
+name=newwindow
+Title=Open in a new window
+Type=checkbox
+
 */ ?>

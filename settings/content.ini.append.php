@@ -1,5 +1,8 @@
 <?php /* #?ini charset="utf-8"?
 
+[ul]
+AvailableClasses[]=unstyled
+
 [table]
 AvailableClasses[]=table
 AvailableClasses[]=table-bordered
@@ -24,6 +27,8 @@ AvailableCustomTags[]=scrollbar
 AvailableCustomTags[]=blockquote
 AvailableCustomTags[]=icon
 AvailableCustomTags[]=well
+AvailableCustomTags[]=popover
+AvailableCustomTags[]=button
 CustomTagsDescription[label]=Label
 CustomTagsDescription[badge]=Badge
 CustomTagsDescription[hero_unit]=Hero Unit
@@ -31,6 +36,8 @@ CustomTagsDescription[scrollbar]=Scrollbar
 CustomTagsDescription[blockquote]=Blockquote
 CustomTagsDescription[icon]=Icon
 CustomTagsDescription[well]=Well
+CustomTagsDescription[popover]=Popover
+CustomTagsDescription[button]=Button
 IsInline[label]=true
 IsInline[badge]=true
 IsInline[hero_unit]=false
@@ -38,6 +45,8 @@ IsInline[scrollbar]=false
 IsInline[blockquote]=false
 IsInline[icon]=true
 IsInline[well]=false
+IsInline[popover]=true
+IsInline[button]=true
 
 [label]
 CustomAttributes[]
@@ -65,5 +74,17 @@ CustomAttributes[]=align
 CustomAttributes[]
 CustomAttributes[]=picto
 CustomAttributes[]=color
+
+[popover]
+CustomAttributes[]
+CustomAttributes[]=title
+CustomAttributes[]=text
+
+[button]
+CustomAttributes[]
+CustomAttributes[]=type
+CustomAttributes[]=size
+CustomAttributes[]=url
+CustomAttributes[]=newwindow
 
 */ ?>
